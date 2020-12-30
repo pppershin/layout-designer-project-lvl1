@@ -20,10 +20,61 @@ html, body {
 main {
     position: relative;
 }
-section {
+section{
     position: relative;
     text-align: center;
 }
+.navigation .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: block;
+    width: 302px;
+    padding: 24px;
+    background-color: #f5f4f0;
+    margin-bottom: 20px;
+}
+.table h2 {
+    font-size: 52px;
+    line-height: 1.2;
+}
+div .table {
+    width: 350px;
+}
+h2 .light {
+    color: #f5f4f0;
+}
+.card p {
+    margin: 0;
+}
+.card .num {
+    margin-bottom: 40px;
+    font-size: 64px;
+    font-family: 'Neucha', cursive;
+    line-height: 1;
+    text-align: left;
+}
+.card .title {
+    font-size: 34px;
+    color: #fe8a02;
+    font-family: 'Neucha', cursive;
+    text-align: left;
+    line-height: 1;
+    margin-bottom: 16px;
+}
+.card .text {
+    font-size: 16px;
+}
+
+.navigation {
+    text-align: left;
+}
+
+
+
 section p {
     margin-top: 30px;
 }
@@ -123,4 +174,11 @@ h2 {
 }
 h3 {
     font-size: 34px;
+}
+p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
