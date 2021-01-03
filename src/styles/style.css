@@ -33,6 +33,7 @@ section{
 .card {
     display: block;
     width: 302px;
+    height: 302px;
     padding: 24px;
     background-color: #f5f4f0;
     margin-bottom: 20px;
@@ -181,4 +182,10 @@ p {
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
+}
+a {
+    color: #2A2626;
+    cursor: pointer;
+    text-decoration: none;
+    height: fit-content;
 }
