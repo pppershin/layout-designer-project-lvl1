@@ -7,7 +7,11 @@
 Тёмный: #2a2626
 Полупрозрачный тёмный: #908d8b
 Коричневый: #b09a81
-Синий: #1085c5 */
+Синий: #1085c5
+
+font-family: 'Neucha', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
 
 html, body {
     font-family: 'Open Sans', sans-serif;
@@ -86,7 +90,7 @@ section p {
 header{
     position: relative;
 }
-header::before {
+.bg-before::before {
     background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -126,7 +130,7 @@ header img {
 }
 .container{
     position: relative;
-    width: 1100px;
+    width: 1110px;
     margin: 0 auto;
     padding: 100px 0;
 }
@@ -147,14 +151,60 @@ header button {
     font-size: 16px;
     line-height: 1.6em;
 }
+
+.ikea-effect h3 {
+    column-span: all;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: #b09a81;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #fff;
+    padding: 5px;
+    text-transform: uppercase;
+}
+.ikea-effect p {
+    line-height: 1.6;
+}
+.ikea-effect h2 {
+    color: #2A2626;
+    margin-bottom: 30px;
+}
+.ikea-effect .large-text{
+    font-family: 'Neucha', cursive;
+    font-size: 34px;
+    line-height: 1.2;
+    color: #2A2626;
+}
+.ikea-effect .div-img {
+    vertical-align: middle;
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+}
+.before-title {
+    font-size: 24px;
+    font-family: 'Neucha', cursive;
+    color: #908d8b;
+}
+.container-for-IKEA{
+    display: flex;
+    flex-direction: row;
+}
+.text-img {
+    text-align: left;
+    margin-left: 30px;
+}
+
 .columns-2 {
     column-count: 2;
     column-gap: 30px;
+    text-align: left;
 }
 .columns-2 p{
     margin: 0;
 }
-
 
 h1, h2, h3, h4, h5 {
     font-family: 'Neucha', cursive;
