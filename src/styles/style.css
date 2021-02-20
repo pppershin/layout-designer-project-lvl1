@@ -126,6 +126,10 @@ section div ul {
     text-align: left;
 }
 
+.columns-2 p:last-child {
+    break-inside: avoid;
+}
+
 .columns-2 h3 {
     column-span: all;
     margin-top: 100px;
@@ -192,9 +196,12 @@ a {
 
 
 
+.light-bg {
+    position: relative;
+    z-index: -200;
+}
 
-
-.ikea-effect h3 {
+.container-for-light h3 {
     column-span: all;
     margin-top: 100px;
     margin-bottom: 20px;
@@ -209,16 +216,16 @@ a {
     padding-left: 10px;
     text-transform: uppercase;
 }
-.ikea-effect p {
+.container-for-light p {
     line-height: 1.6;
 }
 
-.ikea-effect h2 {
+.container-for-light h2 {
     color: #2A2626;
     margin-bottom: 30px;
 }
 
-.ikea-effect .large-text {
+.container-for-light .large-text {
     font-family: 'Neucha', cursive;
     font-size: 34px;
     line-height: 1.2;
@@ -232,7 +239,7 @@ a {
     margin-top: 0;
 }
 
-.container-for-IKEA {
+.container-for-light {
     display: flex;
     flex-direction: row;
 }
