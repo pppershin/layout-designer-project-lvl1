@@ -369,3 +369,94 @@ h2 .light {
 .mb-3 {
     margin-bottom: 30px;
 }
+
+.container-for-footer {
+    width: 1110px;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto 100px auto;
+}
+
+.up-of-footer {
+    display: flex;
+    background-color: #42413c;
+    padding: 55px;
+    color: #f5f4f0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-side {
+    font-family: 'Neucha', cursive;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.right-side input {
+    height: 50px;
+    width: 485px;
+    margin: 15px 0 0 0;
+    border: 0px;
+    padding: 0px;
+}
+
+.right-side label {
+    font-size: 18px;
+}
+
+.right-side button {
+    height: 50px;
+    width: 70px;
+    position: absolute;
+    top: 41px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #fe8a02;
+}
+
+.right-side p {
+    font-size: 12px;
+
+}
+.right-side p a{
+    color: #fff;
+
+}
+.down-of-footer {
+    margin-top: 60px;
+}
+
+.down-of-footer p{
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+
+.down-of-footer p:last-child {
+    margin-bottom: 0px;
+}
+
+.down-of-footer a{
+    text-decoration: underline;
+    color: -webkit-link;
+}
+
+button::before {
+    background-image: url(../images/send.svg);
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 25px;
+    width: 100%;
+    height: 100%;
+}
