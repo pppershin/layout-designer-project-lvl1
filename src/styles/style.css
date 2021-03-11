@@ -22,6 +22,23 @@ body {
     margin: 0;
     overflow-x: hidden;
 }
+.bg-main-header::before {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    z-index: -100;
+    background-blend-mode: normal;
+    background-color: #D7CCC0;
+    
+}
 
 .bg-main::before {
     background-image: url(../images/background.png);
@@ -36,6 +53,7 @@ body {
     height: 100%;
     opacity: 0.1;
     z-index: -100;
+    
 }
 
 .bg-dark::before {
@@ -54,6 +72,7 @@ header {
     position: relative;
 
 }
+
 header div {
     position: relative;
     width: 1110px;
@@ -70,7 +89,8 @@ header img {
 }
 
 header article {
-    margin-top: 192px;
+    margin-top: 220px;
+    height: 265px;
 }
 
 header button {
@@ -99,7 +119,7 @@ section div {
     padding: 100px 0;
 }
 
-section div div{
+section div div {
     padding: 0;
 }
 
@@ -216,6 +236,7 @@ a {
     padding-left: 10px;
     text-transform: uppercase;
 }
+
 .container-for-light p {
     line-height: 1.6;
 }
@@ -366,6 +387,7 @@ h2 .light {
 .text-center {
     text-align: center;
 }
+
 .mb-3 {
     margin-bottom: 30px;
 }
@@ -427,15 +449,17 @@ h2 .light {
     font-size: 12px;
 
 }
-.right-side p a{
+
+.right-side p a {
     color: #fff;
 
 }
+
 .down-of-footer {
     margin-top: 60px;
 }
 
-.down-of-footer p{
+.down-of-footer p {
     font-size: 14px;
     line-height: 1.6;
     margin-bottom: 16px;
@@ -445,7 +469,7 @@ h2 .light {
     margin-bottom: 0px;
 }
 
-.down-of-footer a{
+.down-of-footer a {
     text-decoration: underline;
     color: -webkit-link;
 }
